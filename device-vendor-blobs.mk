@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
 # Cameradata
 PRODUCT_COPY_FILES += \
     vendor/samsung/gravitysmart/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-	vendor/samsung/gravitysmart/proprietary/cameradata/datapattern_420sp_gt2.yuv:system/cameradata/datapattern_420sp_gt2.yuv \
+    vendor/samsung/gravitysmart/proprietary/cameradata/datapattern_420sp_gt2.yuv:system/cameradata/datapattern_420sp_gt2.yuv \
     vendor/samsung/gravitysmart/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp_.yuv
 
 # Adreno libs
@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gravitysmart/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/samsung/gravitysmart/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/samsung/gravitysmart/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-	vendor/samsung/ancora_tmo/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/samsung/gravitysmart/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/samsung/gravitysmart/proprietary/lib/libgsl.so:system/lib/libgsl.so 
 
 # HW libs
